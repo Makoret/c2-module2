@@ -1,12 +1,12 @@
 def count_duplicates(num)
-     diplicates = 0
+     duplicates = 0
      num.sort!
      for i in 0..(num.length-1) do
           if num[i].to_i == num[i+1].to_i
-               diplicates += 1
+               duplicates += 1
           end
      end
-     puts diplicates
+     puts duplicates
 end
 
 numbers_1 = [1, 2, 3, 2, 5, 8, 5, 10, 5]
